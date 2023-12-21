@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(152, 152, 164);
+}
+li{
+    font-size: 14px;
+    font-style: italic;
+}
+h1{
+    font-size: 50px;
+    
+}
+a{
+    color: rgb(132, 195, 219);
+    text-decoration: none;
+}
+
+.no-bullets {
+    list-style-type: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    /* font-weight: bold; */
+    /* font-size: large; */
+}
+a:visited{
+    color: whitesmoke;
+}
+
+.bold{
+    font-weight: bold;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.normal{
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.homebg{
+    background-image: url(../assets/img/lightning.webp);
+    background-position: center;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+.box1{
+    border-width: 10px;
+    border-style: solid;
+    border-color: azure;
+}
+.common{
+    border-width: 2px;
+    /* background-color: rgba(240, 255, 244, 0.487); */
+    position: absolute;
+}
+.header{
+    left: 5px;
+    right: 5px;
+    top: 5px;
+    height: 100px;
+    text-align: center;
+    z-index: 3;
+}
+.left{
+    left: 5px;
+    top: 114px;
+    width: 250px;
+    bottom: 39px;
+    text-align: center;
+}
+.mainbody_left{
+    top: 114px;
+    left: 264px;
+    right: 50%;
+    bottom: 39px;
+    text-align: center;
+    z-index: 1;
+}
+
+.mainbody_right{
+    top: 114px;
+    left: 50%;
+    right: 264px;
+    bottom: 39px;
+    text-align: center;
+    z-index: 2;
+}
+
+.mainbody_middle{
+    top: 120%;
+    left: 264px;
+    right: 264px;
+    height: 1000px;
+    text-align: center;
+}
+.right{
+    top: 114px;
+    width: 250px;
+    bottom: 39px;
+    right: 5px;
+    text-align: center;
+}
+/* .footer{
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    bottom: 10000px;
+    font-size: 8px;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 5px;
+} */
+
+/* .bigtext{
+    font-size: 25px;
+    font-style: italic;
+} */
+.box2{
+    border-width: 10px;
+    border-style: solid;
+    border-color: azure;
+    width: 560px;
+}
